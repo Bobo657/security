@@ -1,0 +1,37 @@
+.modal-overlay {
+	background: none repeat scroll 0 0 rgba(0, 0, 0, 0.9);
+	height: 100%;
+	left: 0;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+.modal.mio_modal iframe {
+	border: medium none;
+	border-radius: 6px;
+	display: block;
+	margin: auto;
+	width: 100% !important;
+}
+
+.close-window {
+    background-color: #A0522D;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    color: #FFFFFF;
+    cursor: pointer;
+    overflow: hidden;
+    padding: 3px;
+    position: absolute;
+    right: 20px;
+    top: 5px;
+}
+
+.modal.mio_modal {
+	left: 20% !important;
+	margin-left: 0 !important;
+	position: fixed;
+	top: 10%;
+	z-index: 1;
+}
