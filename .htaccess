@@ -1,0 +1,8 @@
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^(www.)?grummantech.io$
+RewriteCond %{REQUEST_URI} !^/en/
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ /en/$1
+RewriteCond %{HTTP_HOST} ^(www.)?grummantech.io$
+RewriteRule ^(/)?$ en/index.html [L]
